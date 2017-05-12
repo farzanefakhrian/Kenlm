@@ -27,7 +27,7 @@ bzcat bible.en.txt.bz2 |\
 python process.py |\
 ./kenlm/bin/lmplz -o 3 > mod.arpa
 ```
-for generate a sentence or calculate probability of a sentence run gensen.py
+* for generate a sentence or calculate probability of a sentence run gensen.py
 ```
 python gensen.py
 ```
