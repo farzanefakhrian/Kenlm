@@ -1,7 +1,7 @@
-## Kenlm Language Model
+# Kenlm Language Model
 
  
-# Installing Kenlm
+## Installing Kenlm
 ```
 pip install nltk 
 git clone https://github.com/vchahun/kenlm.git
@@ -9,19 +9,19 @@ cd kenlm
 ./bjam 
 python setup.py install 
 cd ..
-python –m nltk.download(puntk)
+python â€“m nltk.download(puntk)
 ```
 
-# Data
+## Data
 get Data from this address
 ```
 https://www.dropbox.com/s/1ba5w0ofdoo149g/fawiki_normalized_tokenized.txt.zip?dl=1
 ```
-#Testing Program
+## Testing Program
 ```
 bzcat fawiki_normalized_tokenized.txt.bz2 | ython process.py | wc
 ```
-#Training Model
+## Training Model
 ```
 bzcat bible.en.txt.bz2 |\
 python process.py |\
