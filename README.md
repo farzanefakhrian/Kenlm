@@ -19,7 +19,7 @@ https://www.dropbox.com/s/1ba5w0ofdoo149g/fawiki_normalized_tokenized.txt.zip?dl
 ```
 ## Testing Program
 ```
-bzcat fawiki_normalized_tokenized.txt.bz2 | ython process.py | wc
+bzcat fawiki_normalized_tokenized.txt.bz2 | python process.py | wc
 ```
 ## Training Model
 ```
