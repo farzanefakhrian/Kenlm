@@ -36,7 +36,7 @@ elif a==2 :
 	generatedSent = word
 
 
-        while word != "</s>" and word != "." and word != "!" and word != "?":
+        while word != "</s>" and word != "." and word != "!" and word != "?" and word != "؟":
             words = []
             dic = {}
             gram2num = startLine
