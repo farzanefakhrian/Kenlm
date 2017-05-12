@@ -12,7 +12,12 @@ a= input ("calculating score 1 - generating sentence 2 : ")
 if a==1 :
 	cs= input("Please enter a sentence : ")
 	model = kenlm.LanguageModel('mod.arpa')
+	print ("P is")
+	print(10**model.score(cs))
+	print("logP is ")
 	print(model.score(cs))
+	
+
 elif a==2 :
 	wgs= input("please enter a word to generate a sentence : ")
 
